@@ -1,3 +1,33 @@
 Api-de-paises
 
 -[x]Adicionando projeto no github
+-[x]Planejamento do projeto
+-[ ]Cabeçalho da pagina
+    -[ ]Mensagem where in world?
+    -[ ]icone de lua
+    -[ ]Botão para dark mode
+-[ ]Criar a busca da api
+-[ ]Input de pesquisa
+-[ ]Filtro de continente
+    -[ ]filtros(Africa, America, Asia, Europa e Oceania)
+-[ ]8 imagens com a bandeiras
+    -[ ]Informaçoes de cada pais
+        -[ ]Nome
+        -[ ]População
+        -[ ]Região
+        -[ ]Capital
+-[ ]Tela de detalhes do pais
+    -[ ]Botão de voltar para a tela principal
+    -[ ]Bandeira
+    -[ ]Nome
+    -[ ]Lingua nativa
+    -[ ]População
+    -[ ]Região
+    -[ ]sub Região
+    -[ ]Capital
+    -[ ]Domínio de nível superior
+    -[ ]Moeda
+    -[ ]Idiomas
+    -[ ]Paises na fronteira
+-[ ]Definir estilos da tela principal
+-[ ]Definir estilos da tela de detalhes
