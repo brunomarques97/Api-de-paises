@@ -8,10 +8,10 @@ Api-de-paises
     -[x]Botão para dark mode
     -[x]Definir estilos do Cabeçalho
 -[x]Criar a busca da api
--[ ]Input de pesquisa
+-[x]Input de pesquisa
 -[ ]Filtro de continente
     -[ ]filtros(Africa, America, Asia, Europa e Oceania)
--[ ]8 imagens com a bandeiras
+-[ ]Imagens com a bandeiras
     -[ ]Informaçoes de cada pais
         -[ ]Nome
         -[ ]População

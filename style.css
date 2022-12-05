@@ -25,3 +25,20 @@
 body{
     background-color: beige;
 }
+.pesquisa {
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    display: inline;
+}
+.pesquisa img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+.pesquisa input{
+    height: 30px
+}
