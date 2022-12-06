@@ -15,10 +15,22 @@
         <label>Dark Mode</label>
         </div>
     </div>
-    <div class="pesquisa">
-        <img src="design/png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="lupa">
-        <input type="search" placeholder="Search for a country...">
+    <div class="divBusca">
+        <img src="design/png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="Buscar..."/>
+        <input type="text" class="txtBusca" placeholder="Search for a country..."/>
     </div>
+    <select
+       class="custom-select"
+       aria-label="Filter Countries By Region">
+        <option value="All">Filter By Region</option>
+        <option value="Africa">Africa</option>
+        <option value="Americas">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+        </select>
+        <span className="focus"></span>
+        </div>
     <p id="lingua"></p>
 </body>
 </html>
