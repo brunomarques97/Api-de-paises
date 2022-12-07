@@ -55,3 +55,8 @@ body{
     top: 100px;
     right: 100px;
   }
+  .bandeira{
+    position: relative;
+    top: 200px;
+    height: 50px;
+  }

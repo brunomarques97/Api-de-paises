@@ -12,11 +12,12 @@ Api-de-paises
 -[x]Filtro de continente
     -[x]filtros(Africa, America, Asia, Europa e Oceania)
 -[ ]Imagens com a bandeiras
-    -[ ]Informaçoes de cada pais
-        -[ ]Nome
-        -[ ]População
-        -[ ]Região
-        -[ ]Capital
+    -[x] Teste1 para aplicar imagem no html
+-[ ]Informaçoes de cada pais
+    -[ ]Nome        
+    -[ ]População
+    -[ ]Região
+    -[ ]Capital
 -[ ]Tela de detalhes do pais
     -[ ]Botão de voltar para a tela principal
     -[ ]Bandeira

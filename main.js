@@ -1,3 +1,5 @@
-fetch("https://restcountries.com/v3.1/").then((promise)=>
-    console.log(promise.json())
-    )
+
+fetch("https://restcountries.com/v3.1/all").then((matriz)=>
+    matriz.json()).then((subMatriz)=>
+    subMatriz[2].flags.png
+)
