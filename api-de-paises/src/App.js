@@ -1,24 +1,19 @@
+import "./App.css";
 import { useState, useEffect } from "react";
 
-// Observação: o array vazio [] significa que esse
-    // useEffect será executado uma vez
     function App() {
       const [error, setError] = useState(null);
       const [isLoaded, setIsLoaded] = useState(false);
       const [items, setItems] = useState([]);
 
       useEffect(() => {
-          //altere a linha abaixo no codepen
-          fetch("https://restcountries.com/v2/all")
+          fetch("https://restcountries.com/v3.1/all")
               .then((res) => res.json())
               .then(
                   (result) => {
                       setIsLoaded(true);
                       setItems(result);
                   },
-                  // Observação: é importante tratar erros aqui
-                  // em vez de usar um bloco catch() para não termos
-                  // exceções a partir de bugs de fato nos componentes.
                   (error) => {
                       setIsLoaded(true);
                       setError(error);
@@ -32,7 +27,6 @@ import { useState, useEffect } from "react";
           return <>loading...</>;
       } else {
           return (
-              /* aqui fazemos o map do elemento e exibimos cada item como um card  */
               <div className="wrapper">
                   <ul className="card-grid">
                       {items.map((item) => (
@@ -64,4 +58,5 @@ import { useState, useEffect } from "react";
           );
       }
   }
+  
 export default App;
