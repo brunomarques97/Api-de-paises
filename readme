@@ -11,6 +11,7 @@ Api-de-paises
 -[x]Input de pesquisa
 -[x]Filtro de continente
     -[x]filtros(Africa, America, Asia, Europa e Oceania)
+-[x]Mudar estrutura para o react
 -[ ]Imagens com a bandeiras
     -[x] Teste1 para aplicar imagem no html
 -[ ]Informaçoes de cada pais
